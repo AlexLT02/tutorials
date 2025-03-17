@@ -9,11 +9,19 @@ import numpy as np
 
 # TODO Loading images in grey and color
 
+img_normal = cv2.imread('./tutorials/data/images/sift_table05.jpg', cv2.IMREAD_UNCHANGED)
+img_gray = cv2.imread('./tutorials/data/images/sift_table05.jpg', cv2.IMREAD_GRAYSCALE)
+
 # TODO Do some print out about the loaded data using type, dtype and shape
+print(type(img_normal))
+print(type(img_gray))
+
 
 # TODO Continue with the grayscale image
+img = img_gray.copy()
 
 # TODO Extract the size or resolution of the image
+
 
 # TODO Resize image
 
